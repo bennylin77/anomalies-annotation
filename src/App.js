@@ -24,7 +24,7 @@ class App extends Component {
 
 	constructor(props) {
 		super(props);
-		this.state = { alertVisible: false, alertMessage: "", step: 2, played: 0, playing: true, duration: 0,loop: false, seeking: false,
+		this.state = { alertVisible: false, alertMessage: "", step: 2, played: 0, playing: false, duration: 0,loop: false, seeking: false,
 									 selectedEvent: "-1", selectedStart: 0, selectedEnd: 0, indicator1: 0, indicator2: 0, eventTimeList:[] };
 		this.onAlertDismiss = this._onAlertDismiss.bind(this);
 
